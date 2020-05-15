@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/adarshmacl/CommonExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'adarshmacl' => 'adarsh@mobomo.com' }
+  s.author           = { 'adarshmacl' => 'adarshmacl@gmail.com' }
   s.source           = { :git => 'https://github.com/adarshmacl/CommonExtensions.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

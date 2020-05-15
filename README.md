@@ -22,7 +22,7 @@ pod 'CommonExtensions'
 
 ## Author
 
-adarshmacl, adarsh@mobomo.com
+adarshmacl, adarshmacl@gmail.com
 
 ## License
 
