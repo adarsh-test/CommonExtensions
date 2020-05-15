@@ -33,7 +33,7 @@ source 'https://github.com/adarsh-test/pod-lib-specs.git'
 ```
 
 ```ruby
-pod 'CommonLibrary'
+pod 'CommonExtensions'
 ```
 
 ## Example Pod File:
@@ -45,7 +45,7 @@ source 'https://github.com/adarsh-test/pod-lib-specs.git'
 
 target 'TestApp' do
     use_frameworks!
-    pod 'CommonLibrary', '~>1.0.1'
+    pod 'CommonExtensions', '~>1.0.1'
 end
 ```
 
