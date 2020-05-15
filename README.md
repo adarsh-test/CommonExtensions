@@ -13,16 +13,45 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-CommonExtensions is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To install it - 
+
+You must add the private source repo to your local Cocoapods installation with the command:
+
+pod repo add [REPO_NAME] [SOURCE_URL]
+
+Example: run the following command in the terminal to add this private source repository to the cocoapods installation.
+```ruby
+pod repo add pod-lib-specs https://github.com/adarsh-test/pod-lib-specs.git
+```
+
+Private Source: https://github.com/adarsh-test/pod-lib-specs.git
+
+Add the pod source and its name lines to your Podfile:
 
 ```ruby
-pod 'CommonExtensions'
+source 'https://github.com/adarsh-test/pod-lib-specs.git'
+```
+
+```ruby
+pod 'CommonLibrary'
+```
+
+## Example Pod File:
+
+```ruby
+platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/adarsh-test/pod-lib-specs.git'
+
+target 'TestApp' do
+    use_frameworks!
+    pod 'CommonLibrary', '~>1.0.1'
+end
 ```
 
 ## Author
 
-adarshmacl, adarshmacl@gmail.com
+Adarsh M, adarshmacl@gmail.com
 
 ## License
 
